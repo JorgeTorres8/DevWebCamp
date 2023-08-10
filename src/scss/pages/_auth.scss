@@ -1,0 +1,12 @@
+@use 'base/mixins' as m;
+
+.auth {
+    @include m.container-sm;
+   /* &__heading { //BEM with Sass
+        @include m.page-name;
+    }*/
+}
+
+.auth__text {
+    font-size: 2rem;
+}
