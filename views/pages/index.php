@@ -32,7 +32,7 @@
 
     <div class="speakers__grid">
         <?php foreach($speakers as $speaker) { ?>
-            <div <?php aos_animation(); ?> class="speaker">
+            <div class="speaker">
                 <picture>
                     <source srcset="img/speakers/<?php echo $speaker->image; ?>.webp" type="image/webp">
                     <source srcset="img/speakers/<?php echo $speaker->image; ?>.png" type="image/png">
@@ -108,19 +108,19 @@
     <p class="tickets__description">Prices for DebWebCamp</p>
 
     <div class="tickets__grid">
-        <div <?php aos_animation(); ?> class="ticket ticket--in-person">
+        <div class="ticket ticket--in-person">
             <h4 class="ticket__logo">&#60;DevWebCamp /></h4>
             <p class="ticket__plan">In Person</p>
             <p class="ticket__price">$199</p>
         </div>
 
-        <div <?php aos_animation(); ?> class="ticket ticket--virtual">
+        <div class="ticket ticket--virtual">
             <h4 class="ticket__logo">&#60;DevWebCamp /></h4>
             <p class="ticket__plan">Virtual</p>
             <p class="ticket__price">$49</p>
         </div>
 
-        <div <?php aos_animation(); ?> class="ticket ticket--free">
+        <div class="ticket ticket--free">
             <h4 class="ticket__logo">&#60;DevWebCamp /></h4>
             <p class="ticket__plan">Free</p>
             <p class="ticket__price">Free - 0</p>
